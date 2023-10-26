@@ -15,9 +15,9 @@ function generateExcuse() {
   let randomWhat = what[Math.floor(Math.random() * what.length)];
   let randomWhen = when[Math.floor(Math.random() * when.length)];
 
-  let excuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}.`;
+  let excusePhrase = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}.`;
 
-  return excuse;
+  return excusePhrase;
 }
 
 document.getElementById("generateExcuse").addEventListener("click", function() {
